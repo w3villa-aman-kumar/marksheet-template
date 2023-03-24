@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part starts here */
+
+header{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    height: 100%;
+    left: 10%;
+}
+
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.head-text{
+    text-align: center;
+    font-size: 28px;
+    color: #5a73a9;
+    padding-top: 10px;
+}
+
+.head-text p{
+    padding: 5px 0px;
+}
+
+#exam-name{
+    font-size: 22px;
+}
+
+/* table css start here */
+.table-section{
+    font-size: 20px;
+    height: 40em;
+    position: relative;
+    top: 1em;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+/* test */
+
+/* .cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont .image{
+    position: absolute;
+} */
+
+
