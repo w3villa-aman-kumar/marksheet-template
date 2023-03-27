@@ -3,8 +3,11 @@
     padding: 0;
 }
 
-/* header part starts here */
+main{
+    background-color: rgb(229 208 201);
+}
 
+/* header part starts here */
 header{
     position: relative;
 }
@@ -24,7 +27,7 @@ header{
 .head-text{
     text-align: center;
     font-size: 28px;
-    color: #5a73a9;
+    color: #082a74;
     padding-top: 10px;
 }
 
@@ -45,29 +48,55 @@ header{
 }
 
 table, td{
-    border: 1px solid black;
+    border: 1px solid #082a74;
     border-collapse: collapse;
+}
+
+td{
+    color: #082a74;
+    padding-left: 10px;
 }
 
 table{
     width: 80%;
     height: 100%;
     margin: auto;
+    background-color: aliceblue;
 }
 
+.tr-data td:not(.tr-data td:nth-child(1)){
+    color:black ;
+}
 
+.common-align{
+    text-align: center;
+}
 
-/* test */
+/* footer starts here */
+footer{
+    padding-top: 1em;
+}
 
-/* .cont{
+.footer-div{
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.result-status{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-text-container{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    font-size: 20px;
 }
 
-.cont .image{
-    position: absolute;
-} */
-
+.designation p{
+    text-align: center;
+}
+ 
 
